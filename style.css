@@ -316,7 +316,6 @@ i.fas.fa-info{
 }
 .cubeDetailsPopulaires{
 		width: 100%;
-		padding-left: 2%;
 		margin-bottom: 15px;
 
 }
@@ -358,6 +357,12 @@ i.fas.fa-info{
 }
 h3 {
     font-size: 1.1em;
+}
+h2{
+	font-size: 1.1em;
+}
+#filtre h2 {
+    font-size: 1.5em;
 }
 /* fin reglage bloc1 */
 .hauteurTitre{
