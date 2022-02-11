@@ -511,7 +511,7 @@ flex-wrap: wrap;
 .blockPopulaire{
 		width: 40%;
 		margin-left: 2rem;
-		padding: 0 10px 35px 10px;
+		padding: 0 10px 45px 10px;
 }		
 }
 @media only screen and (min-width:1025px) and (max-width: 1275px){
@@ -522,7 +522,7 @@ flex-wrap: wrap;
 @media only screen and (min-width:768px) and (max-width: 1276px) {
 .blockPopulaire{
 		width: 40%;
-		padding-right: 0;
+		padding: 1rem;
 }
 .blockHebergements{
 		width:50%;
@@ -797,6 +797,12 @@ M E D I A  Q U E R I E S
 		width: 100%;
 	}
 }
+
+@media (max-width: 515px){
+	header {
+		border-bottom: 1px solid #ebe9e9;
+	}
+}
  
  
 /* Small devices (landscape phones, 576px and up) */
@@ -804,7 +810,6 @@ M E D I A  Q U E R I E S
 	.container {
 		width: 100%;
 	}
-	
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -948,8 +953,8 @@ custom
 		margin-bottom: 2rem;
 	}
 
-	#search .container {
-		padding-left: 1rem;
+	#search {
+		padding: 1rem;
 	}
 
 	.bloc1.flexBetween {
