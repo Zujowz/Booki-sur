@@ -357,7 +357,7 @@ i.fas.fa-info{
 		overflow: hidden;
 }
 h3 {
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 /* fin reglage bloc1 */
 .hauteurTitre{
@@ -444,9 +444,6 @@ h3 {
 .footer{
 		height: 250px;
 		margin-top: 40px;
-}
-.tailleBlockFooter{
-		height: 170px;
 }
 .margBlockFooter1{
 		margin-left: 4%;
@@ -756,9 +753,6 @@ html, body{
 			"e"
 			"f";
 }
-.tailleBlockFooter{
-		height: 115px;
-}
 .footer {
 		flex-direction: column;
 		height: auto;
@@ -975,21 +969,27 @@ custom
 
 	.cubeActivites:nth-child(1) {
 		margin: 0;
+		padding-top: 1rem;
 	}
 	.cubeActivites:nth-child(2) {
 		margin: 0;
+		padding-top: 1rem;
 	}
 	.cubeActivites:nth-child(3) {
 		margin: 0;
+		padding-top: 1rem;
 	}
 	.cubeActivites:nth-child(4) {
 		margin: 0;
+		padding-top: 1rem;
 	}
 	.cubeActivites:nth-child(5) {
 		margin: 0;
+		padding-top: 1rem;
 	}
 	.cubeActivites:nth-child(6) {
 		margin: 0;
+		padding-top: 1rem;
 	}
 
 
