@@ -1,12 +1,13 @@
 /* General */
-html,body{
+
+html, body{
 		font-family: Raleway;
 	padding: 0;
 	margin: 0;
 }
 .flexLeft{
 		display: flex;
-		align-items: left;
+		align-items: center;
 }
 .flexCentre {
 		display: flex;
@@ -81,6 +82,8 @@ html,body{
 }
 .marglogo{
 		margin-bottom: 7px;
+		width: 120px;
+		height: 50px;
 }
 /*Header*/
 .desktopNone{
@@ -811,7 +814,7 @@ M E D I A  Q U E R I E S
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768) and (max-width: 991px) {  
+@media (min-width: 768px) and (max-width: 991px) {  
 	.container {
 		width: 720px;
 	}
