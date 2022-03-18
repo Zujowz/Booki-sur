@@ -316,7 +316,8 @@ i.fas.fa-info{
 }
 .cubeDetailsPopulaires{
 		width: 100%;
-		margin-bottom: 15px;
+		margin-bottom: 25px;
+		margin-left: 0.5rem;
 
 }
 /* Activités */
@@ -356,10 +357,10 @@ i.fas.fa-info{
 		overflow: hidden;
 }
 h3 {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 h2{
-	font-size: 1.1em;
+	font-size: 1.5em;
 }
 #filtre h2 {
     font-size: 1.5em;
@@ -460,7 +461,7 @@ h2{
 		color:black;
 }
 .divLienFoot{
-		height: 30px;
+		padding: 2px;
 }
 body{
 		box-sizing: border-box;
@@ -499,6 +500,7 @@ flex-wrap: wrap;
 }
 .blockHebergements{
 	width: 100%;
+	padding-right: 1rem;
 }
 .blockPopulaire{
 	width: 100%;
@@ -533,7 +535,7 @@ flex-wrap: wrap;
 		width:50%;
 }	
 }
-@media only screen and (min-width:406px) and (max-width: 1276px){
+@media only screen and (min-width:425px) and (max-width: 992px){
 .blocActivites {	
 	display: grid;
     grid-template-columns: 1fr 1fr;
@@ -567,7 +569,7 @@ flex-wrap: wrap;
 }
 }
 
-@media only screen and (min-width: 406px) and (max-width: 768px){
+@media only screen and (min-width: 425px) and (max-width: 768px){
 .filtreTexteIcons{
 	margin-bottom: 20px;
 }
@@ -602,7 +604,7 @@ flex-wrap: wrap;
 }
 }
 
-@media only screen and (max-width: 405px){
+@media only screen and (max-width: 768px){
 html, body{
 		margin: 0;
 		padding: 0;
@@ -699,7 +701,7 @@ html, body{
 
 .cubeHebergements{
     width: 100%;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 }
 .cubeDetailsHebergements{
 		min-height: auto;
@@ -761,7 +763,6 @@ html, body{
 .footer {
 		flex-direction: column;
 		height: auto;
-		font-size: smaller;
 		align-items: flex-start;
 }
 .margBlockFooter3 {
@@ -803,7 +804,7 @@ M E D I A  Q U E R I E S
 	}
 }
 
-@media (max-width: 515px){
+@media (max-width: 767px){
 	header {
 		border-bottom: 1px solid #ebe9e9;
 	}
@@ -827,7 +828,7 @@ M E D I A  Q U E R I E S
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1024px) { 
 	.container {
-		width: 960px;
+		width: 975px;
 	}
 }
  
@@ -850,13 +851,14 @@ M E D I A  Q U E R I E S
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 custom
 */
-@media (max-width: 1024px) { 
+@media (max-width: 991px) { 
 	.heb-pop {
 		display: flex;
 		flex-direction: column-reverse;
 	}
 	.blockPopulaire {
 		width: 100%;
+		padding: 1rem;
 	  }
 
 	  .blockHebergements {
@@ -871,18 +873,37 @@ custom
 
 
 @media (max-width: 768px) {  
+	
 	.blockHebergements {
 		width: 100%;
 	 }
 	.sizePopulaire.blockPopulaire.backGris .flexColumnAround {
-		padding: 1rem 3rem;
+		padding: 0.7rem;
 	  }
 
 	  .sizePopulaire.blockPopulaire.backGris > div:nth-child(1) {
-		  padding: .5rem 4rem;
+		padding: 0.7rem;
 	  }
 	  .cubePopulaires > div:nth-child(1) {
 		width: 60%;
+	}
+	.imgHebergements.itemImage_1 {
+		height: 120px;
+	}
+	.imgHebergements.itemImage_2 {
+		height: 120px;
+	}
+	.imgHebergements.itemImage_3 {
+		height: 120px;
+	}
+	.imgHebergements.itemImage_4 {
+		height: 120px;
+	}
+	.imgHebergements.itemImage_5 {
+		height: 120px;
+	}
+	.imgHebergements.itemImage_6 {
+		height: 120px;
 	}
 
 	.sizeLiens {
@@ -937,17 +958,16 @@ custom
 	  /*.container .blockHebergements div{
 		width: 100%;
 	  }*/
-	  .cubeHebergements {
-		margin-bottom: 7px;
-	  }
 	  .footer {
 		margin-top: 0;
+		width:100%;
+		padding: 1rem;
 	  }
 	  .blocActivites {
-		  width: 100%;
-		  margin-left: -15px;
-		  margin-right: -15px;
-		  padding-left: 15px;
+		width: 100%;
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
 	  }
 
 	.bordureSearch.flexCentre {
@@ -1005,13 +1025,15 @@ custom
 
 }
 
-@media (max-width: 640px) {
-	.cubeHebergements {
-		width: 47%;
-	}
+@media (max-width: 768px) {
+
 
 	.sizeNav {
 		width: 100%;
+	}
+
+	.footer h3 {
+		font-size: 1.2rem;
 	}
 
 	.footer.flexBetween {
@@ -1023,7 +1045,7 @@ custom
 	}
 
 	.margBlockFooter1 h3 {
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 	}
 
 	.decorationNone.lienFoot {
@@ -1035,10 +1057,6 @@ custom
 		margin-bottom: 1rem;
 	}
 
-	.footer.backGris {
-		padding: 1rem;
-	}
-}
 
 
 @media (max-width: 460px) {
@@ -1046,4 +1064,15 @@ custom
 		width: 100%;
 	}
 
+}
+
+@media (min-width: 425px) and (max-width: 460px){
+	.margBlockFooter3{
+		padding-bottom: 3rem;
+	}
+}
+@media (min-width: 991px) and (max-width: 1030px){
+	h3 {
+		font-size: 0.8em;
+	}
 }
